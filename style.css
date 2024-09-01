@@ -40,12 +40,23 @@ body{
     color: #FF2F75;
     text-align: center;
   }
+  button{
+    color: #fff;
+    background-color:#FF2F75;
+  }
+  button:hover{
+    background-color:#000;
+  }
+  button a{
+    color: #fff;
+    text-decoration: none;
+  }
   /* End Global CSS */
 
 
   .logo{
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -66,7 +77,7 @@ body{
   header .btn{
     background: #fff;
     padding: 15px 30px;
-    border-radius: 25px;
+    border-radius: 30px;
     color: #FF2F75;
   }
   header .btn:hover{
@@ -83,21 +94,140 @@ body{
   /* End Header CSS */
 
   /* Start HomePage First Section CSS */
-  .projectslider{
-    height: 70vh;
-    overflow: hidden;
-    padding: 0px;
-  }
-  .projectslider img{
-    height: 900px;
+  .carousel-item img{
+    height: 80vh;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overlay: #000;
+    object-fit: cover;
+    opacity: .3;
+  }
+  .carousel-item h5{
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+    z-index: 1000;
+    margin-bottom: 30px;
+  }
+  .carousel-item p{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 20px
+  }
+    .carousel-item .slider-button{
+    background-color: #FF2F75;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 15px 35px;
+    margin-bottom: 200px;
+  }
+  .carousel-item .slider-button:hover{
+    color:#FF2F75 !important;
+    background-color: #fff;
+    transition: 1s ease all;
+  }
+  .carousel-item .slider-button a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .carousel-item .slider-button a:hover{
+    color: #FF2F75;
   }
   /* End HomePage First Section CSS */
 
+  /* Homepage Second Section Start*/
+  .second-section{
+    background: #fff;
+    padding: 100px 0;
+  }
+  .second-section h2{
+    color: #FF2F75;
+    font-size: 50px;
+    text-align: left;
+  }
+  .second-section h5{
+    color: #FF2F75;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .second-section p{
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+  }
+  .second-section img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.89) 0px 3px 8px;
+    transition: 1s ease all;
+  }
+  .second-section img:hover{
+    margin-top: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .second-section button{
+    color: #fff;
+    background-color: #FF2F75;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 15px 35px;
+  }
+  .second-section button:hover{
+    background-color: #000;
+    padding: 15px 35px;
+  }
+  .second-section a{
+    color: #fff;
+    text-decoration: none;  
+  }
+  /* Homepage Second Section End*/
 
+  /* Homepage Third Section Start */
+  .third-section{
+    background-color: #FF2F75;
+    padding: 100px 0px;
+  }
+  .third-section img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+  }
+  .third-section h4{
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #fff;
+    color: #000;
+    padding: 30px;
+  }
+  /* Homepage Third Section End */
+
+
+  /* Homepage Fourht Section Start */
+  .fourth-section{
+    background-color: #fff;
+    padding: 100px 0px;
+  }
+  /* Homepage Fourht Section End */
+
+
+  /* Homepage Fifth Section Start */
+  .fifth-section{
+    background: url(img/Physical\ Therapy.jpeg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    background-color: #fff;
+    padding: 100px 0px;
+  }
+  /* Homepage Fifth Section End */
+  
   /* Start Footer CSS */
   footer{
     background-color: #FF2F75;
@@ -110,7 +240,7 @@ body{
     font-weight: bold;
     margin-bottom: 20px;
   }
-footer ul li a{
+  footer ul li a{
     color: #fff;
     text-align: left;
     line-height: 30px;
