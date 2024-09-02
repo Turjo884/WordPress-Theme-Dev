@@ -29,7 +29,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="about.html">About Us</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Service</a>
@@ -47,7 +47,6 @@
           </nav>
         </div>
       </div>
-      
     </header>
     <!-- End Header Section -->
 
@@ -128,23 +127,26 @@
       </div>
     </div>
    </div>
-   
   <!-- End HomePage Second Section -->
 
   <!-- Start HomePage Thrid Section -->
    <div class="third-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <h2>Service We Offer</h2>
+        <div class="col-md-4 image-container">
+          <h3>Consultation</h3>
           <img src="img/Nursing Homes.jpeg" alt="">
           <h4>Call Us: +88 44343 355</h4>
         </div>
-        <div class="col-md-4">
-          <img src="img/Nursing Homes.jpeg" alt="">
+        <div class="col-md-4 image-container">
+          <h3>Therapy</h3>
+          <img src="img/Physical Therapy.jpeg" alt="">
           <h4>Call Us: +88 44343 355</h4>
         </div>
-        <div class="col-md-4">
-          <img src="img/Nursing Homes.jpeg" alt="">
+        <div class="col-md-4 image-container">
+          <h3>Checkup</h3>
+          <img src="img/Rehabilitation.jpeg" alt="">
           <h4>Call Us: +88 44343 355</h4>
         </div>
       </div>
@@ -157,13 +159,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h5>Who we are</h5>
-          <h2>A Short Brief of Us</h2>
+          <h5>Have any question?</h5>
+          <h2>Contact Us For any Query</h2>
           <p>At Cozy Seven, we believe in creating a warm and inviting space where everyone feels at home. Our passion for high-quality coffee, delectable cakes, and fine wines drives us to provide an exceptional experience for all our guests.
              We are committed to being an active part of Shirley and contributing to 
              local events and charities. Stay tuned for updates on our community 
-             initiatives and find out how you can get involved. Together, we can 
-             make a difference.
+             initiatives and find out how you can get involved. 
+             Together, we can make a difference.</p>
         </div>
         <div class="col-md-6">
           <form>
@@ -192,7 +194,7 @@
             </div>
             
             <!-- Submit Button -->
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn form-button">Submit</button>
         </form>
         </div>
       </div>
@@ -207,13 +209,38 @@
       <div class="row">
         <div class="col-md-12">
           <h2>If you wnat to know update click the button to open the subcription form</h2>
-          <button type="submit" class="btn btn-primary">Click Here</button>
-          <div class="alert alert-success" role="alert">
-            <h4 class="alert-heading">Well done!</h4>
-            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-            <hr>
-            <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-          </div>
+           <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary subscribe-main-button" data-bs-toggle="modal" data-bs-target="#subscribeModal">
+              Subscribe to Newsletter
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="subscribeModalLabel">Subscribe to Our Newsletter</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary close-button" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary subscribe-button">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
     </div>
