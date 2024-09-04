@@ -66,13 +66,13 @@ body{
     background-color: #FF2F75;
   }
   .nav-item .nav-link{
-    color: #fff;
+    color: #fff!important;
     font-weight: 700px;
     text-transform: uppercase;
+    transition: 1s ease all;
   }
   .nav-item .nav-link:hover{
-    color: #000;
-    transition: 1s ease all;
+    color: #000 !important;
   }
   header .btn{
     background: #fff;
@@ -278,7 +278,6 @@ body{
   /* Homepage Fifth Section Start */
   .fifth-section{
     background: url(img/Physical\ Therapy.jpeg);
-    
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -342,6 +341,96 @@ body{
     color: #000 !important;
    }
   /* Homepage Fifth Section End */
+
+  /* Start About Us First Section CSS*/
+  .about-us-first{
+    background: url(img/Physical\ Therapy.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    padding: 100px 0px;
+    height: 50vh;
+    position: relative;
+  }
+  .about-us-first h2{
+    position: absolute;
+    top: 500;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #fff;
+    color:#FF2F75;
+    padding: 30px;
+    width: 45%;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px; 
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  }
+  .about-us-first ul {
+    position: absolute;
+    top: 1;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color:#FF2F75 ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    /* gap: 3px !important; */
+    /* z-index: 999; */
+  }
+
+  .about-us-first ul li{
+    color:#FF2F75 ;
+  }
+  /* End About Us First Section CSS*/
+
+  /* Start About Us Second Section CSS */
+  .about-us-second{
+    padding: 100px 0px;
+    background: #fff;
+  }
+  .about-us-second h2{
+    background: #fff;
+    color:#FF2F75;
+    font-size: 50px; 
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .about-us-second .card-body{
+    background: #FF2F75;
+  }
+  .about-us-second .card-body h5{
+    color: #fff;
+    font-size: 35px;
+    text-align: left;
+  }
+  .about-us-second .card-body .card-text{
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+  }
+  .about-us-second{
+    
+  }
+  .about-us-second .card-body .card-link{
+    background: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 30px;
+    color:#FF2F75;
+    border-radius: 30px;
+  }
+  
+  /* End About Us Second Section CSS */
   
   /* Start Footer CSS */
   footer{
@@ -373,3 +462,5 @@ body{
     border-bottom: 1px solid #fff;
     padding-bottom: 30px;
   }
+
+ 
