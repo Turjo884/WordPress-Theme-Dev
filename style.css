@@ -398,6 +398,11 @@ body{
     padding: 100px 0px;
     background: #fff;
   }
+  .about-us-second .card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
   .about-us-second h2{
     background: #fff;
     color:#FF2F75;
@@ -418,9 +423,11 @@ body{
     font-size: 16px;
     text-align: left;
   }
-  .about-us-second{
-    
+    .about-us-second li.list-group-item {
+      background: #FF2F75;
+      color: #fff;
   }
+    
   .about-us-second .card-body .card-link{
     background: #fff;
     font-size: 16px;
@@ -429,8 +436,47 @@ body{
     color:#FF2F75;
     border-radius: 30px;
   }
-  
+  .about-us-second-button{
+    background: #FF2F75;
+    color: #fff;
+    border: 2px solid #FF2F75;
+    padding: 15px 35px;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .about-us-second-button:hover{
+    background: #FF2F75;
+    color: #FF2F75 !important;
+    border: 2px solid #FF2F75;
+  }
   /* End About Us Second Section CSS */
+
+
+  /* Start About Us Third Section CSS */
+  .third-section{
+    background: url(img/Hospital\ Discharge.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    padding: 100px 0px;
+  }
+  .third-section h5{
+    text-align: left;
+  }
+  .third-section h2{
+    text-align: left;
+    margin-bottom: 10;
+    padding: 0;
+  }
+  .third-section p{
+    text-align: left;
+    color: #fff;
+  }
+  /* End About Us Third Section CSS */
   
   /* Start Footer CSS */
   footer{
