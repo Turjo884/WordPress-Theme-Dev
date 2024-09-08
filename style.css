@@ -456,7 +456,7 @@ body{
 
 
   /* Start About Us Third Section CSS */
-  .third-section{
+  .about-us-third-section{
     background: url(img/Hospital\ Discharge.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -464,19 +464,170 @@ body{
     object-fit: cover;
     padding: 100px 0px;
   }
-  .third-section h5{
+  .about-us-third-section h5{
     text-align: left;
   }
-  .third-section h2{
+  .about-us-third-section h2{
     text-align: left;
     margin-bottom: 10;
     padding: 0;
   }
-  .third-section p{
+  .about-us-third-section p{
     text-align: left;
     color: #fff;
   }
   /* End About Us Third Section CSS */
+
+
+  /* Service Page First Section CSS Start */
+  .service-first{
+    background: url(img/Physical\ Therapy.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    padding: 100px 0px;
+    height: 50vh;
+    position: relative;
+  }
+  .service-first h2{
+    position: absolute;
+    top: 500;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #fff;
+    color:#FF2F75;
+    padding: 30px;
+    width: 45%;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px; 
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  }
+  .service-first ul {
+    position: absolute;
+    top: 1;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color:#FF2F75 ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    /* gap: 3px !important; */
+    /* z-index: 999; */
+  }
+
+  .service-first ul li{
+    color:#FF2F75 ;
+  }
+  /* Service Page First Section CSS End */
+
+
+  /* Service Page Second Section CSS Start */
+  .service-second{
+    padding: 100px 0px;
+    background: #fff;
+  }
+  .service-second .card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .service-second h2{
+    background: #fff;
+    color:#FF2F75;
+    font-size: 50px; 
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .service-second .card-body{
+    background: #FF2F75;
+  }
+  .service-second .card-body h5{
+    color: #fff;
+    font-size: 35px;
+    text-align: left;
+  }
+  .service-second .card-body .card-text{
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+  }
+    .service-second li.list-group-item {
+      background: #FF2F75;
+      color: #fff;
+  }
+    
+  .service-second .card-body .card-link{
+    background: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 30px;
+    color:#FF2F75;
+    border-radius: 30px;
+  }
+  /* Service Page Second Section CSS End */
+
+
+  /* Service Page Third Section CSS Start */
+  .service-third-section{
+    background: url(img/Physical\ Therapy.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    background-color: #fff;
+    padding: 100px 0px;
+  }
+  .service-third-section h2{
+    text-align: center;
+    font-size: 50px; 
+    margin-bottom: 60px;
+  }
+  .modal-body{
+    background: #FF2F75;
+  }
+  .modal-footer .subscribe-button{
+    background: #FF2F75;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 15px 35px;
+    border-radius: 30px;
+  }
+  .modal-footer .close-button:hover{
+    background: #fff;
+    color: #FF2F75;
+    border: 2px solid #FF2F75;
+  }
+  .modal-footer .close-button{
+    background: #FF2F75;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 15px 35px;
+    border-radius: 30px;
+  }
+  .modal-footer .subscribe-button:hover{
+    background: #fff;
+    color: #FF2F75;
+    border: 2px solid #FF2F75;
+  }
+  button.btn-close {
+    border: 2px solid  #FF2F75;
+    color: #fff !important;
+  }
+   button.btn-close:hover{
+    background: transparent;
+    color: #000 !important;
+   }
+  /* Service Page Third Section CSS End */
   
   /* Start Footer CSS */
   footer{
